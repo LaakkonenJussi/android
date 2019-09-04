@@ -150,4 +150,6 @@
   <project name="vendor-qcom-opensource-fm" path="vendor/qcom/opensource/fm" remote="sony" revision="aabbad189c592aa67facec37bb4d52eb5f991738" upstream="master"/>
   <project name="vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="sony" revision="4901f9495363d5bb9bce784a932cdcf3ee1fbd3e" upstream="m-mr1"/>
   <project name="vendor-sony-oss-fingerprint" path="vendor/sony-oss/fingerprint" remote="sony" revision="59bb4e148d0563f4f971b849dd39e28655cc45d5" upstream="master"/>
+  <remote name="zx2c4" fetch="git://git.zx2c4.com/" />
+  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="f63509f99b4052d999be3069abb04d5b63ad55bd" sync-s="true" />
 </manifest>
